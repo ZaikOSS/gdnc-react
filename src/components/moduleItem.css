@@ -1,0 +1,10 @@
+/* Subtle glow effect */
+.text-green-300 {
+    text-shadow: 0 0 2px #00ff00, 0 0 5px #00ff00;
+  }
+  
+  /* Subtle box shadow on hover */
+  li:hover {
+    box-shadow: 0 0 4px #00ff00;
+  }
+  

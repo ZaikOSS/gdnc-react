@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* App.css */
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black; /* Ensures the body has a black background */
+  color: white; /* Text will be white by default */
+}

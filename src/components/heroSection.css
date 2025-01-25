@@ -1,0 +1,15 @@
+.hero-image {
+    width: 150px;  /* Adjust the width to make the image smaller */
+    height: 150px;  /* Same height as width to make it circular */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image is cropped to fit the circular shape */
+    max-width: 100%; /* Ensures the image is responsive */
+    margin: 0 auto;  /* Centers the image */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6); /* Green hacker-style shadow */
+    border: 4px solid rgba(0, 255, 0, 0.8);  /* Green border for hacker effect */
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.8), 0 0 10px rgba(0, 255, 0, 0.8);  /* Green text-shadow for hacker vibe */
+  }
+  

@@ -1,0 +1,68 @@
+/* Subtle Flicker Effect */
+@keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 0.9;
+    }
+    40% {
+      opacity: 0.95;
+    }
+    60% {
+      opacity: 0.9;
+    }
+    80% {
+      opacity: 0.95;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-flicker {
+    animation: flicker 1.5s infinite;
+  }
+  
+  /* Subtle glowing effect */
+  .text-shadow-lg {
+    text-shadow: 0 0 3px #00ff00, 0 0 6px #00ff00;
+  }
+  
+  .text-blue-600 {
+    color: #00ff00; /* Subtle green for hacker theme */
+  }
+  
+  /* Adjusting the font and appearance */
+  h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  /* Styling the module list items with more subtle hover effect */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    border: 1px solid #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: rgba(0, 255, 0, 0.1); /* More subtle hover */
+    transform: scale(1.03); /* Slight scaling effect */
+    cursor: pointer;
+  }
+  
+  /* Adding a minimal glow effect on text */
+  .text-green-500 {
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.6);
+  }
+  
+  .text-blue-600 {
+    color: #00ff00; /* Keep it a subtle neon green */
+  }
+  

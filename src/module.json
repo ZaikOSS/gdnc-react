@@ -1,0 +1,47 @@
+[
+  {
+    "semester": "Semester 1",
+    "modules": [
+      {
+        "name": "Algèbre Linéaire",
+        "file": "/assets/algebre.zip",
+        "description": "Learn about vector spaces, matrices, and linear transformations."
+      },
+      {
+        "name": "Réseaux",
+        "file": "/assets/reseau.zip",
+        "description": "Understand the fundamentals of computer networks and protocols."
+      },
+      {
+        "name": "Bases de Données",
+        "file": "/assets/bds.zip",
+        "description": "Master database design, SQL, and data management."
+      },
+      {
+        "name": "SE Linux",
+        "file": "/assets/SE_linux.zip",
+        "description": "Learn about SELinux for system security and access control."
+      },
+      {
+        "name": "POO",
+        "file": "/assets/POO.zip",
+        "description": "Dive into object-oriented programming principles with C++."
+      }
+    ]
+  },
+  {
+    "semester": "Semester 2",
+    "modules": [
+      {
+        "name": "Programmation Orientée Objet",
+        "file": "/assets/poo.zip",
+        "description": "Dive into object-oriented programming principles with C++."
+      },
+      {
+        "name": "Sécurité Informatique",
+        "file": "/assets/security.zip",
+        "description": "Understand basic cybersecurity concepts and practices."
+      }
+    ]
+  }
+]
