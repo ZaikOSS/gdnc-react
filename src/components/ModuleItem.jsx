@@ -11,7 +11,8 @@ const ModuleItem = ({ name, description, file }) => {
       </div>
       <a
         href={file}
-        download
+        target="_blank" // Opens the link in a new tab
+        rel="noopener noreferrer" // Security feature to prevent malicious activity
         className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 mt-2 md:mt-0 transition duration-300 transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 relative overflow-hidden"
       >
         <span className="font-mono text-lg tracking-wider z-10 relative">
