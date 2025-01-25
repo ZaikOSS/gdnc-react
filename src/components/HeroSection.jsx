@@ -10,7 +10,7 @@ const HeroSection = () => {
       </h1>
 
       <a
-        href="https://www.linkedin.com" // Replace with your LinkedIn URL
+        href="https://www.linkedin.com/in/zakaria-ouadifi/"
         target="_blank"
         rel="noopener noreferrer"
         className="relative block mx-auto mb-4"
